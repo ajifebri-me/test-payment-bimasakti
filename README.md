@@ -2,11 +2,11 @@
 
 - Create .env file from .env.example file
 - Set QUEUE_CONNECTION=database
-- Run command composer install
-- Run command php artisan key:generate
-- Run command php artisan migrate
-- Run command php artisan db:seed
-- Run command php artisan queue:work
+- Run command => composer install
+- Run command => php artisan key:generate
+- Run command => php artisan migrate
+- Run command => php artisan db:seed
+- Run command => php artisan queue:work
 
 ## Configuration
 - All requests to any of those functions should contain header key “Sec-Token” with value of current date in format “yyyyMMdd” to verify, example: 20240906
